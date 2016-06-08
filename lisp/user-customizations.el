@@ -70,7 +70,6 @@
 (require-package 'projectile)
 (projectile-global-mode)
 (setq projectile-require-project-root nil)
-(setq projectile-switch-project-action 'projectile-dired)
 
 ;;; disable autosave and backup
 (setq auto-save-default nil)
