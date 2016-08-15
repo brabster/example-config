@@ -74,3 +74,5 @@
 ;;; disable autosave and backup
 (setq auto-save-default nil)
 (setq backup-inhibited t)
+
+(require-package 'json-mode)
