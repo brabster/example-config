@@ -6,6 +6,8 @@
 (ido-everywhere 1)
 (flx-ido-mode 1)
 
+(global-linum-mode t)
+
 ;; This allows partial matches, e.g. "tl" will match "Tyrion Lannister"
 (setq ido-enable-flex-matching t)
 (setq ido-use-faces nil)
