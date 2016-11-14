@@ -7,6 +7,7 @@
 (flx-ido-mode 1)
 
 (global-linum-mode t)
+(menu-bar-mode -1)
 
 ;; This allows partial matches, e.g. "tl" will match "Tyrion Lannister"
 (setq ido-enable-flex-matching t)
