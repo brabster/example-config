@@ -79,3 +79,4 @@
 (setq backup-inhibited t)
 
 (require-package 'json-mode)
+(require-package 'markdown-mode)
