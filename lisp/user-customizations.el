@@ -80,3 +80,5 @@
 
 (require-package 'json-mode)
 (require-package 'markdown-mode)
+
+(add-hook 'before-save-hook 'whitespace-cleanup)
