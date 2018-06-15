@@ -1,8 +1,8 @@
-(require-package 'hl-sexp)
+(require-package 'hl-sentence)
 
 ;; hl-sexp: minor mode to highlight s-expression
-(require 'hl-sexp)
+(require 'hl-sentence)
 
-(add-hook 'clojure-mode-hook #'hl-sexp-mode)
-(add-hook 'lisp-mode-hook #'hl-sexp-mode)
-(add-hook 'emacs-lisp-mode-hook #'hl-sexp-mode)
+(add-hook 'clojure-mode-hook #'hl-sentence-mode)
+(add-hook 'lisp-mode-hook #'hl-sentence-mode)
+(add-hook 'emacs-lisp-mode-hook #'hl-sentence-mode)

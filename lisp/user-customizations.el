@@ -1,5 +1,5 @@
 ;;; setup ido
-(require-package 'ido-ubiquitous)
+(require-package 'ido-completing-read+)
 (require-package 'flx-ido)
 
 (ido-mode 1)

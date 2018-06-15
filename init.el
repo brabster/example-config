@@ -62,13 +62,13 @@ re-downloaded in order to locate PACKAGE."
   (exec-path-from-shell-initialize))
 
 (dolist (file '("cfg-paredit.el"
-		"cfg-hlsexp.el"
-		"cfg-cider.el"
+                "cfg-hlsexp.el"
+                "cfg-cider.el"
                 "cfg-cljrefactor.el"))
   (load (concat dotfiles-lisp-dir file)))
 
 
-  
+
 ;; Custom User configurations:
 ;; If you wish to add additional functionality to your emacs config beyond what is in this setup,
 ;; simply add a file called "user-customizations.el" to your .emacs.d/lisp/ directory. Within that file,
@@ -80,3 +80,17 @@ re-downloaded in order to locate PACKAGE."
 
 (when (file-exists-p (concat dotfiles-lisp-dir "user-customizations.el"))
   (load (concat dotfiles-lisp-dir "user-customizations.el")))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (markdown-mode json-mode projectile magit aggressive-indent whitespace-cleanup-mode smex solarized-theme flx-ido ido-completing-read+ hl-sentence exec-path-from-shell company clj-refactor))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
